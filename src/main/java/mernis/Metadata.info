@@ -4,7 +4,7 @@
     <Version>5.12.12.0</Version>
     <AccountType>Basic</AccountType>
     <LibrariesFolder>easywsdl</LibrariesFolder>
-    <MainClass>KPSPublicSoap</MainClass>
+    <MainClass>VGNKPSPublicSoap</MainClass>
   </Info>
   <Settings>
     <Url>https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL</Url>
@@ -29,13 +29,14 @@
     <DetectDictionaries>false</DetectDictionaries>
   </Settings>
   <Files>
-    <File>DateTimeConverter.java</File>
-    <File>ExtendedSoapSerializationEnvelope.java</File>
-    <File>Helper.java</File>
-    <File>KPSPublicSoap.java</File>
-    <File>KPSPublicSoap12.java</File>
-    <File>MarshalGuid.java</File>
-    <File>StandardDateTimeConverter.java</File>
+    <File>Metadata.info</File>
+    <File>VGNDateTimeConverter.java</File>
+    <File>VGNExtendedSoapSerializationEnvelope.java</File>
+    <File>VGNHelper.java</File>
+    <File>VGNKPSPublicSoap.java</File>
+    <File>VGNKPSPublicSoap12.java</File>
+    <File>VGNMarshalGuid.java</File>
+    <File>VGNStandardDateTimeConverter.java</File>
   </Files>
   <Libraries>
     <File>ExKsoap2-1.0.3.1.jar</File>
